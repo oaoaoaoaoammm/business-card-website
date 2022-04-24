@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Orbitron-Medium';
+    src: url('/Orbitron/Orbitron-Medium.ttf');
+}
+@media screen and (max-width: 800px){ /*todo: написать отдельный сайт по мобильные телефоны, а тут высветить сообщение: 'none adaptive, sorry. Try to use mobile version: 'link'' */
+    body{
+        background-color: black;
+        color: black;
+        background-image: none;
+    }
+    .menu{
+        display: none;
+    }
+    .blockForCards{
+        display: none;
+    }
+    .blockForText{
+        display: none;
+    }
+    .Menu{
+        display: none;
+    }
+    .Icons{
+        display: none;
+    }
+    .notMobile{
+        display: block;
+        margin: 50px;
+        text-decoration: none;
+        font-family: 'Orbitron-Regular';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #00ff55;
+    }
+    a{
+        font-family: 'Orbitron-Regular';
+        text-decoration:underline;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #00ff55;
+    }
+}
