@@ -83,6 +83,7 @@ body{
     clip-path: inset(0 -0.3ch 0 0)
   }
 }
+
 b{
     margin-left: 29%;
     margin-right: 40%;
@@ -101,6 +102,6 @@ b{
     margin: 8px;
     margin-left: 8%;
     margin-right: 6%;
-    font-size: 10px;
+    font-size: 12px;
     color: #FFFFFF;
 }
