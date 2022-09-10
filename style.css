@@ -13,15 +13,6 @@
     padding: 0%;
 }
 
-body {
-    overflow: hidden;
-    background-image: url('/img/main/img1.jpeg');
-    /* todo: change img*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -30,6 +21,17 @@ a {
 .notMobile {
     display: none;
 }
+
+
+/* ! background img */
+body {
+    overflow: hidden;
+    background-image: url('/img/main/img1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
 
 /* ! logo */
 .Logo {
@@ -46,6 +48,7 @@ a {
     width: 100%;
     height: 100%;
 }
+
 
 /* ! menu */
 .menu {
@@ -71,11 +74,12 @@ a {
     color: #FFFFFF;
 }
 
+
 /* ! icons */
 .Icons {
     position: fixed;
     display: flex;
-    left: 75%;
+    left: 80%;
     top: 90%;
 }
 

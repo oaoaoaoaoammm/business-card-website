@@ -13,6 +13,12 @@
     src: url('/Orbitron/Orbitron-Medium.ttf');
 }
 
+.notMobile {
+    display: none;
+}
+
+
+/* ! background img */
 body {
     overflow: hidden;
     background: url('/img/background/img1.jpeg');
@@ -21,9 +27,6 @@ body {
     background-color: black;
 }
 
-.notMobile {
-    display: none;
-}
 
 /* ! menu */
 .menu {
@@ -46,6 +49,7 @@ body {
     line-height: 45px;
     color: #FFFFFF;
 }
+
 
 /* ! cards */
 .blockForCards {
