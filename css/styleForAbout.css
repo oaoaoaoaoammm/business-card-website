@@ -2,28 +2,31 @@
     font-family: 'Orbitron-Regular';
     src: url('/Orbitron/Orbitron-Regular.ttf');
 }
+
 @font-face {
     font-family: 'Orbitron-VariableFont';
     src: url('/Orbitron/Orbitron-VariableFont_wght.ttf');
 }
+
 @font-face {
     font-family: 'Orbitron-Medium';
     src: url('/Orbitron/Orbitron-Medium.ttf');
 }
 
-body{
+body {
     overflow: hidden;
-    background: url('/img/imageBackPage2.jpeg');
+    background: url('/img/background/img1.jpeg');
     background-repeat: no-repeat;
     background-size: 110%;
     background-color: black;
 }
-.notMobile{
+
+.notMobile {
     display: none;
 }
 
 /* ! menu */
-.menu{
+.menu {
     display: inline-block;
     position: static;
     white-space: nowrap;
@@ -32,7 +35,8 @@ body{
     margin-top: 1%;
     text-shadow: 2px 2px 10px #e9e9e9cb;
 }
-.itemDecor{
+
+.itemDecor {
     margin: 20px;
     text-decoration: none;
     font-family: 'Orbitron-Regular';
@@ -44,7 +48,7 @@ body{
 }
 
 /* ! cards */
-.blockForCards{
+.blockForCards {
     position: static;
     margin-top: 2%;
     margin-left: 10%;
@@ -52,52 +56,60 @@ body{
     margin-bottom: 2%;
     padding: 2%;
 }
-.cards{
-    position: relative;
+
+.cards {
+    position: static;
     display: inline-block;
     height: 260px;
-    width: 150px;
+    width: 160px;
     background: #000000;
     border: 2px solid rgba(255, 255, 255, 0.6);
     box-sizing: border-box;
     border-radius: 30px;
     margin: 25px;
 }
-.positive{
+
+.positive {
     box-shadow: 3px 3px 10px 1px rgba(0, 255, 0, 0.3);
 }
-.negative{
+
+.negative {
     box-shadow: 3px 3px 10px 1px rgba(255, 0, 0, 0.4);
 }
-.netural{
+
+.netural {
     box-shadow: 3px 3px 10px 1px rgba(0, 194, 255, 0.7);
 }
+
 .loading {
-  display:inline-block;
-  clip-path: inset(0 0.8ch 0 0);
-  animation: l 1.4s steps(4) infinite;
+    display: inline-block;
+    clip-path: inset(0 0.8ch 0 0);
+    animation: l 1.4s steps(4) infinite;
 }
 
 @keyframes l {
-  to {
-    clip-path: inset(0 -0.3ch 0 0)
-  }
+    to {
+        clip-path: inset(0 -0.3ch 0 0)
+    }
 }
 
-b{
+b {
     margin-left: 29%;
     margin-right: 40%;
     font-family: 'Orbitron-Medium';
 }
-.imgInCards{
+
+.imgInCards {
     width: 100px;
     height: 100px;
     border-radius: 20px;
     box-shadow: 1px 2px 20px rgba(0, 194, 255, 0.7);
     margin: 10px;
-    margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 19%;
 }
-.textInCards{
+
+.textInCards {
     font-family: 'Orbitron-VariableFont';
     margin: 8px;
     margin-left: 8%;

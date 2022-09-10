@@ -2,23 +2,26 @@
     font-family: 'Orbitron-Regular';
     src: url('/Orbitron/Orbitron-Regular.ttf');
 }
+
 @font-face {
     font-family: 'Orbitron-Medium';
     src: url('/Orbitron/Orbitron-Medium.ttf');
 }
-body{
+
+body {
     overflow: hidden;
-    background: url('/img/imageBackPage3.jpeg');
+    background: url('/img/background/img2.jpeg');
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 100%;
     background-color: black;
 }
-.notMobile{
+
+.notMobile {
     display: none;
 }
 
 /* ! menu */
-.menu{
+.menu {
     display: inline-block;
     position: static;
     white-space: nowrap;
@@ -26,7 +29,8 @@ body{
     margin-right: 20%;
     margin-top: 1%;
 }
-.itemDecor{
+
+.itemDecor {
     margin: 20px;
     text-decoration: none;
     font-family: 'Orbitron-Regular';
@@ -39,7 +43,7 @@ body{
 }
 
 /* ! main text */
-.blockForText{
+.blockForText {
     position: static;
     margin-left: 10%;
     margin-top: 3%;
@@ -49,7 +53,8 @@ body{
     box-shadow: 3px 4px 15px 1px rgba(255, 252, 252, 0.25);
     border-radius: 50px;
 }
-.text{
+
+.text {
     font-family: 'Orbitron-Medium';
     font-style: normal;
     font-weight: 400;
