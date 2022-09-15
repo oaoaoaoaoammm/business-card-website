@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Orbitron-Regular';
-    src: url('/business-card-website/Orbitron/Orbitron-Regular.ttf');
+    src: url('/business-card-website/fonts/Orbitron/Orbitron-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Orbitron-VariableFont';
-    src: url('/business-card-website/Orbitron/Orbitron-VariableFont_wght.ttf');
+    src: url('/business-card-website/fonts/Orbitron/Orbitron-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'Orbitron-Medium';
-    src: url('/business-card-website/Orbitron/Orbitron-Medium.ttf');
+    src: url('/business-card-website/fonts/Orbitron/Orbitron-Medium.ttf');
 }
 
 .notMobile {
