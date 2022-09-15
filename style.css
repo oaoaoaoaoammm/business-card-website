@@ -6,6 +6,8 @@
 @font-face {
     font-family: 'Orbitron-Regular';
     src: url('../fonts/Orbitron/Orbitron-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 * {
