@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Orbitron-Regular';
-    src: url('/Orbitron/Orbitron-Regular.ttf');
+    src: url('/business-card-website/Orbitron/Orbitron-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Orbitron-Medium';
-    src: url('/Orbitron/Orbitron-Medium.ttf');
+    src: url('/business-card-website/Orbitron/Orbitron-Medium.ttf');
 }
 
 .notMobile {
@@ -16,7 +16,7 @@
 /* ! background img */
 body {
     overflow: hidden;
-    background: url('/img/background/img2.jpeg');
+    background: url('/business-card-website/img/background/img2.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: black;
