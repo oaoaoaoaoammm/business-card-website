@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Orbitron-Regular';
-    src: url('business-card-website/fonts/Orbitron/Orbitron-Regular.ttf');
+    src: url('/business-card-website/fonts/Orbitron/Orbitron-Regular.ttf');
 }
 
 * {
